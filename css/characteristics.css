@@ -1,0 +1,24 @@
+.characteristics {
+  display: flex;
+  margin: 3em;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.characteristic {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.characteristic-img {
+  width: 5em;
+  height: 5em;
+}
+
+.characteristic-title {
+  color: #e75313;
+  font-weight: 500;
+  font-size: 1.25em;
+}

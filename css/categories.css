@@ -1,0 +1,30 @@
+.categories {
+  height: 37.25em;
+  display: flex;
+  gap: 1em;
+}
+
+.categories-title {
+  font-size: 4.3em;
+  font-weight: 900;
+  color: #fff;
+}
+
+.categories-image {
+  position: relative;
+}
+.categories-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.categories-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  bottom: 3em;
+  left: 3em;
+  right: 3em;
+}

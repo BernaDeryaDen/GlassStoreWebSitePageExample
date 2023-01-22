@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/components/button.css" />
+    <link rel="stylesheet" href="./css/components/text.css" />
+    <link rel="stylesheet" href="./css/components/section.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/characteristics.css" />
+    <link rel="stylesheet" href="./css/categories.css" />
+    <link rel="stylesheet" href="./css/recomended.css" />
+    <link rel="stylesheet" href="./css/advice.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
+    <!-- REMOTE -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
+    <!-- LOGO AND NAV -->
+    <nav class="navbar">
+      <a class="navbar-brand" href="#">
+        <span class="brand-bold">LENS</span>
+        <span class="brand-light">LOVE</span>
+      </a>
+      <div class="navbar-contact" href="#">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">0371 525 777</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Account</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /LOGO AND NAV -->
+
+    <!-- NAV AND SEARCH -->
+    <nav class="navbar">
+      <div class="navbar-links" href="#">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Warranty</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Medical</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-search" href="#">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <img src="./img/search.png" alt="Search" /> Search</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <img src="./img/favourites.png" alt="Favourites"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link shopping-cart-icon" href="#">
+              <img
+                class="shopping-cart-img"
+                src="./img/shoppingCart.png"
+                alt="Search"
+              />
+              <span class="shopping-cart-count">0</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /NAV AND SEARCH -->
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="hero-text">
+        <span class="hero-title">Spring sale</span>
+        <span class="hero-subtitle">Up to -40%</span>
+        <a class="button button-primary" href="#">See offer</a>
+      </div>
+      <div class="hero-image">
+        <img src="./img/hero.png" alt="Hero" />
+      </div>
+    </div>
+    <!-- /HERO -->
+
+    <!-- CHARACTERISTICS -->
+    <div class="characteristics">
+      <div class="characteristic">
+        <img
+          class="characteristic-img"
+          src="./img/original.png"
+          alt="Original products icon"
+        />
+        <span class="characteristic-title">Original products</span>
+      </div>
+      <div class="characteristic">
+        <img
+          class="characteristic-img"
+          src="./img/warranty.png"
+          alt="Lifetime warranty icon"
+        />
+        <span class="characteristic-title">Lifetime warranty</span>
+      </div>
+      <div class="characteristic">
+        <img
+          class="characteristic-img"
+          src="./img/delivery.png"
+          alt="Fast delivery icon"
+        />
+        <span class="characteristic-title">Fast delivery</span>
+      </div>
+    </div>
+    <!-- /CHARACTERISTICS -->
+
+    <!-- CATEGORIES -->
+    <div class="categories">
+      <div class="categories-image">
+        <img src="./img/boy.png" alt="Optical" />
+        <div class="categories-text">
+          <span class="categories-title">Optical</span>
+          <a class="button button-secondary" href="#">Buy</a>
+        </div>
+      </div>
+      <div class="categories-image">
+        <img src="./img/girl.png" alt="Sunwear" />
+        <div class="categories-text">
+          <span class="categories-title">Sunwear</span>
+          <a class="button button-secondary" href="#">Buy</a>
+        </div>
+      </div>
+    </div>
+    <!-- /CATEGORIES -->
+
+    <!-- RECOMENDED -->
+    <div class="section">
+      <span class="title">Popular</span>
+      <ul class="recomended-products">
+        <li class="product">
+          <img class="product-image" src="./img/glass.png" alt="Glass" />
+          <div class="product-text">
+            <span class="product-title">Model name</span>
+            <span class="product-subtitle">Price</span>
+          </div>
+          <a class="button-arrow" href="#">
+            See Details <img src="./img/arrow-right.png" alt="arrow-right"
+          /></a>
+        </li>
+        <li class="product">
+          <img class="product-image" src="./img/glass.png" alt="Glass" />
+          <div class="product-text">
+            <span class="product-title">Model name</span>
+            <span class="product-subtitle">Price</span>
+          </div>
+          <a class="button-arrow" href="#">
+            See Details <img src="./img/arrow-right.png" alt="arrow-right"
+          /></a>
+        </li>
+        <li class="product">
+          <img class="product-image" src="./img/glass.png" alt="Glass" />
+          <div class="product-text">
+            <span class="product-title">Model name</span>
+            <span class="product-subtitle">Price</span>
+          </div>
+          <a class="button-arrow" href="#">
+            See Details <img src="./img/arrow-right.png" alt="arrow-right"
+          /></a>
+        </li>
+      </ul>
+      <a class="button button-primary recomended-button" href="#">See all</a>
+    </div>
+    <!-- /RECOMENDED -->
+
+    <!-- NEW -->
+    <div class="section">
+      <span class="title">New</span>
+      <ul class="recomended-products">
+        <li class="product">
+          <img class="product-image" src="./img/glass.png" alt="Glass" />
+          <div class="product-text">
+            <span class="product-title">Model name</span>
+            <span class="product-subtitle">Price</span>
+          </div>
+          <a class="button-arrow" href="#">
+            See Details <img src="./img/arrow-right.png" alt="arrow-right"
+          /></a>
+        </li>
+        <li class="product">
+          <img class="product-image" src="./img/glass.png" alt="Glass" />
+          <div class="product-text">
+            <span class="product-title">Model name</span>
+            <span class="product-subtitle">Price</span>
+          </div>
+          <a class="button-arrow" href="#">
+            See Details <img src="./img/arrow-right.png" alt="arrow-right"
+          /></a>
+        </li>
+        <li class="product">
+          <img class="product-image" src="./img/glass.png" alt="Glass" />
+          <div class="product-text">
+            <span class="product-title">Model name</span>
+            <span class="product-subtitle">Price</span>
+          </div>
+          <a class="button-arrow" href="#">
+            See Details <img src="./img/arrow-right.png" alt="arrow-right"
+          /></a>
+        </li>
+      </ul>
+      <a class="button button-primary recomended-button" href="#">See all</a>
+    </div>
+    <!-- /NEW -->
+
+    <!-- SUNWEAR -->
+    <div class="section">
+      <span class="title">Sunwear</span>
+      <ul class="recomended-products">
+        <li class="product">
+          <img class="product-image" src="./img/glass.png" alt="Glass" />
+          <div class="product-text">
+            <span class="product-title">Model name</span>
+            <span class="product-subtitle">Price</span>
+          </div>
+          <a class="button-arrow" href="#">
+            See Details <img src="./img/arrow-right.png" alt="arrow-right"
+          /></a>
+        </li>
+        <li class="product">
+          <img class="product-image" src="./img/glass.png" alt="Glass" />
+          <div class="product-text">
+            <span class="product-title">Model name</span>
+            <span class="product-subtitle">Price</span>
+          </div>
+          <a class="button-arrow" href="#">
+            See Details <img src="./img/arrow-right.png" alt="arrow-right"
+          /></a>
+        </li>
+        <li class="product">
+          <img class="product-image" src="./img/glass.png" alt="Glass" />
+          <div class="product-text">
+            <span class="product-title">Model name</span>
+            <span class="product-subtitle">Price</span>
+          </div>
+          <a class="button-arrow" href="#">
+            See Details <img src="./img/arrow-right.png" alt="arrow-right"
+          /></a>
+        </li>
+      </ul>
+      <a class="button button-primary recomended-button" href="#">See all</a>
+    </div>
+    <!-- /SUNWEAR -->
+
+    <!-- OUR ADVICE -->
+    <div class="section">
+      <span class="title">Our Advice</span>
+      <div class="advices">
+        <div class="advice">
+          <img class="advice-image" src="./img/advice-1.png" alt="Advice 1" />
+          <div class="advice-text">
+            <span class="advice-title">Headline</span>
+            <span class="advice-subtitle">
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro quisquam est, qui
+              dolorem.+</span
+            >
+            <a class="button-arrow" href="#">
+              Read more <img src="./img/arrow-right.png" alt="arrow-right"
+            /></a>
+          </div>
+        </div>
+        <div class="advice">
+          <div class="advice-text">
+            <span class="advice-title">Headline</span>
+            <span class="advice-subtitle">
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. Neque porro quisquam est, qui
+              dolorem.+</span
+            >
+            <a class="button-arrow" href="#">
+              Read more <img src="./img/arrow-right.png" alt="arrow-right"
+            /></a>
+          </div>
+          <img class="advice-image" src="./img/advice-2.png" alt="Advice 2" />
+        </div>
+      </div>
+    </div>
+    <!-- /OUR ADVICE -->
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+      <div class="contact">
+        <a class="navbar-brand navbar-brand-light" href="#">
+          <span class="brand-bold">LENS</span>
+          <span class="brand-light">LOVE</span>
+        </a>
+        <ul class="contact-links">
+          <li>
+            <a href="#">About us</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <ul class="contact-social">
+          <li>
+            <a href="#">
+              <img src="./img/instagram.png" alt="Instagram site" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/dribbble.png" alt="Dribble site" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/twitter.png" alt="Twitter site" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./img/youtube.png" alt="Youtube site" />
+            </a>
+          </li>
+        </ul>
+        <span class="contact-copyright">©LensLove 2022. We love glasses!</span>
+      </div>
+      <div class="info-list">
+        <div class="info">
+          <span class="info-title">Info</span>
+          <ul class="info-links">
+            <li>
+              <a href="#">Delivery</a>
+            </li>
+            <li>
+              <a href="#">Warranty</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">Sitemap</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Terms & Conditions</a>
+            </li>
+          </ul>
+        </div>
+        <div class="info">
+          <span class="info-title">Shops</span>
+          <ul class="info-links">
+            <li>
+              <a href="#">
+                Berlin <br />
+                L-V:09:30-21:00 <br />
+                S:10:00-18:00 <br />
+                D:10:00-16:00
+                <br /><br />
+                Frankfurt<br />
+                L-V:10:00-20:00<br />
+                S:10:00-16:00
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="info">
+          <span class="info-title">Help</span>
+          <ul class="info-links">
+            <li>
+              <a href="#">
+                Email: hi@lenslove.com <br />
+                Client Support: <br />
+                support@lenslove.com<br />
+                0371 525 777<br />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- /FOOTER -->
+  </body>
+</html>

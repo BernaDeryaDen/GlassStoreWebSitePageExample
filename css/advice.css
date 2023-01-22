@@ -1,0 +1,28 @@
+.advices {
+  gap: 0;
+}
+.advice {
+  display: flex;
+}
+
+.advice-image {
+  width: 45em;
+}
+
+.advice-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 10em 7em;
+}
+
+.advice-title {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: var(--primary-text);
+}
+.advice-subtitle {
+  font-size: 1.125em;
+  font-weight: 300;
+  color: var(--primary-text);
+}

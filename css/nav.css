@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 7em;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+.navbar-brand-light {
+  color: var(--secondary);
+}
+
+.brand-bold {
+  font-weight: bold;
+}
+.brand-light {
+  font-weight: lighter;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.nav-link img {
+  width: 1em;
+}
+
+.shopping-cart-icon {
+  position: relative;
+}
+.shopping-cart-count {
+  background-color: #414141;
+  border-radius: 4em;
+  padding: 0em 1em;
+  font-size: 0.5em;
+  color: white;
+  position: absolute;
+  bottom: 0em;
+  left: 1em;
+}

@@ -1,0 +1,33 @@
+.hero {
+  height: 700px;
+  display: flex;
+}
+
+.hero-text {
+  background-color: #eadfd8;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 7em;
+  gap: 1em;
+}
+
+.hero-title {
+  font-size: 4.3em;
+  font-weight: 900;
+  color: var(--primary);
+}
+
+.hero-subtitle {
+  font-size: 3.1em;
+  font-weight: 500;
+  color: var(--primary);
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
